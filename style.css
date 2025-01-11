@@ -1,0 +1,241 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+.navigation-panel{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.img1{
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    top: 30px;
+    left: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.left{
+    font-size: 40px;
+}
+.img-text{
+    display: flex;
+    margin-left: 80px;
+}
+.str1{
+    background-image: linear-gradient(90deg,chocolate,#FFD877);
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+}
+.text2{
+    margin-left: 60px;
+}
+.btn1{
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid black;
+    padding: 15px;
+    width: 130px;
+    transition: 1s;
+}
+.btn2{
+    background: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 15px;
+    width: 130px;
+    transition: 1s;
+}
+.btn1:hover{
+    background: none;
+    transition: 0.5s;
+    border: 2px solid black;
+    color: black;
+
+}
+.btn2:hover{
+    background-color: black;
+    transition: 0.5s;
+    color: chocolate;
+}
+a:hover{
+    text-decoration: underline;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.text3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.texts{
+    color: darkgray;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.text4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.img2{
+    background-size: 100%;
+    height: 200px;
+    margin: 0;
+    width: 200px;
+    padding: 150px;
+    position: absolute;
+    left: 200px;
+}
+.img5{
+    background-size: 100%;
+    height: 200px;
+    margin: 0;
+    width: 200px;
+    padding: 150px;
+    position: absolute;
+    left: 850px;
+}
+.img6{
+    animation-name: img6;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    
+}
+@keyframes img6 {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+.btn3{
+    background-color: chocolate;
+    border:none;
+    padding: 15px;
+    width: 130px;
+    color: white;
+}
+.str2{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.str3{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.btn4{
+    background: none;
+    border: 3px solid chocolate;
+    color: chocolate;
+    padding: 10px;
+    width: 110px;
+}
+.card1{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    width: 500px;
+    transition: 0.2s;
+}
+.card2{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    width: 500px;
+    transition: 0.2s;
+}
+.card1:hover{
+    background-color: rgb(255, 0, 0);
+    transition: 0.2s;
+    box-shadow: 5px 5px 5px 5px rgb(255, 0, 0);
+}
+.card2:hover{
+    background-color: rgb(72, 0, 255);
+    transition: 0.2s;
+    box-shadow: 5px 5px 5px 5px rgb(38, 0, 255);
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    background-color: chocolate;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.img3{
+    animation-name: img3;
+    position: absolute;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    left: 50px;
+    top: 380px;
+}
+@keyframes img3 {
+    0% {top: 380px;}
+    25% {left: 1000px; top: 150px;}
+    50% {top: 420px; left: 800px;}
+}
+.img4{
+    animation-name: img4;
+    position: absolute;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    left: 50px;
+    top: 880px;
+}
+@keyframes img4 {
+    0%{top: 880px;}
+    25% {left: 20px; letter-spacing: 30px;}
+    50% {top:900px ; left: 50px;}
+}
